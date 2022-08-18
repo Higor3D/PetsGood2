@@ -7,35 +7,59 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         android:src="@drawable/icon" />
 
+    <!--google fonts, free icons-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Usuário" />
+        android:layout_marginTop="10dp"
+        android:text="Usuário"
+        android:textAllCaps="true"
+        android:textColor="#2A056C"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
     <EditText
+        android:textColorHint="#FF2A056C"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Insira o usuário... "
+        android:maxLength="100"
+        android:inputType="textEmailAddress" />
 
     <TextView
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:textColor="#2A056C"
+        android:textSize="20sp"
+        android:textStyle="italic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Senha" />
 
     <EditText
+        android:textColorHint="#FF2A056C"
+        android:maxLength="100"
+        android:hint="Insira a senha... "
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Entrar" />
 
     <Button
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sair" />
