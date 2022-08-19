@@ -21,48 +21,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Usuário"
+        android:text="@string/usu_rio"
         android:textAllCaps="true"
         android:textColor="#2A056C"
         android:textSize="20sp"
-        android:textStyle="italic" />
+        android:textStyle="bold" />
 
     <EditText
-        android:textColorHint="#FF2A056C"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira o usuário... "
+        android:hint="@string/insira_o_usu_rio"
+        android:inputType="textEmailAddress"
         android:maxLength="100"
-        android:inputType="textEmailAddress" />
+        android:textColorHint="#FF2A056C" />
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:textAllCaps="true"
-        android:textColor="#2A056C"
-        android:textSize="20sp"
-        android:textStyle="italic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Senha" />
+        android:layout_marginTop="10dp"
+        android:text="@string/senha"
+        android:textAllCaps="true"
+        android:textColor="@color/CorTitulo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:textColorHint="#FF2A056C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insira_a_senha"
         android:maxLength="100"
-        android:hint="Insira a senha... "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textColorHint="#FF2A056C" />
 
     <Button
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar" />
+        android:layout_marginTop="10dp"
+        android:text="@string/entrar" />
 
     <Button
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sair" />
+        android:layout_marginTop="10dp"
+        android:text="@string/sair" />
 
 
 </LinearLayout>
